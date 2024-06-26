@@ -1,0 +1,19 @@
+## Action Item
+Open the "Ubuntu" application using the "Start" menu
+Type ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash``` and press <Enter>
+Close the "Ubuntu" application
+Reopen the "Ubuntu" application
+Type nvm and press <Enter>
+### Checkout this lnk to check your work.
+```https://youtu.be/4X3ELqRnRd0```
+
+## Install Node.js on Ubuntu
+For our JavaScript labs and lessons, we expect that students use Node.js on Ubuntu. If Node Version Manager (NVM) has been successfully installed, you can quickly install Node.js with a couple of commands.
+
+Action Item
+Open the "Ubuntu" application using the "Start" menu
+Type ```nvm install --lts``` and press <Enter>
+Type ```nvm list``` and press <Enter>
+
+Check ypur work:
+https://youtu.be/SqSwrdEENfI
