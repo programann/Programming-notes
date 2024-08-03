@@ -1,0 +1,14 @@
+* {
+    background-color: #333;
+    text-align: center;
+    color: antiquewhite;
+}
+.languageheader {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contenheader{
+    font-size: 5.2rem;
+}
