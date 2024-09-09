@@ -1,5 +1,103 @@
-* {
-    background-color: #333;
+/* General Styles */
+body {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+h1, h2, h3 {
+    color: #00adb5;
     text-align: center;
-    color: antiquewhite;
+    margin-bottom: 40px;
+}
+
+/* Title Styles */
+.contentheader {
+    font-size: 28px;
+    font-weight: bold;
+    color: #00adb5;
+    margin-bottom: 10px;
+}
+
+/* Content Styles */
+.content {
+    padding: 10px 0;
+    margin-bottom: 20px; /* Ensures space between content blocks */
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 1.6; /* For better readability */
+}
+
+/* Ensure vertical flow without any cards */
+/* .topic-container {
+    display: block;
+    margin-bottom: 20px;
+} */
+
+ul, ol {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.content a {
+    color: #ffd369;
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00adb5;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #007b82;
+}
+
+/* Code Block Styles */
+pre {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    color: #e0e0e0;
+    overflow-x: auto;
+}
+
+code {
+    color: #ffd369;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+    background-color: #00adb5;
+    color: #ffffff;
 }
